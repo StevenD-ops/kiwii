@@ -1,79 +1,79 @@
 const ttthelp = (prefix) => {
     return `
-「 \u{1F4AE} Tic Tac Toe \u{1F4AE} 」
-By: Resen
-◪ VERSÃO BETA, PODE CONTER VÁRIOS BUG..
+    「 \u{1F4AE} Tres en raya \u{1F4AE} 」
+    Por: Resen
+    ◪ VERSIÓN BETA, PUEDE CONTENER VARIOS ERRORES..
 
-◪ APENAS PARA GRUPOS
+    ◪ SOLO PARA GRUPOS
 
-◪ INICIAR
-  │
-  ├─ ❏ Para iniciar digite:
-  │     └「 ${prefix}ttt [ DIFICULDADE ] 」
-  └─ ❏ Apenas uma pessoa por vez
+    ◪ COMENZAR
+      │
+      ├─ ❏ Para comenzar escriba:
+      │ └「 ${prefix}ttt [ DIFICULTAD ] 」
+      └─ ❏ Solo una persona a la vez
 
-◪ DIFICULDADE
-  │
-  ├─ ❏ easy : totalmente aleatório
-  │     (Só azarado pra perder nessa)
-  ├─ ❏ normal : 66% de chance 
-  │     de bloqueio e vitória
-  ├─ ❏ hard : 100% de chance 
-  │     de bloqueio e vitória 
-  └─ ❏ impossible : Só Kuuhaku
-           pra vencer isso
+    ◪ DIFICULTAD
+      │
+      ├─ ❏ fácil: totalmente aleatorio
+      │ (Simplemente mala suerte perder en este)
+      ├─ ❏ normal: 66% de probabilidad
+      │ bloquear y ganar
+      ├─ ❏ difícil: 100% de probabilidad
+      │ bloquear y ganar
+      └─ ❏ imposible: Solo Kuuhaku
+               para vencer esto
 
-◪ TEMPORIZADOR
-  │
-  ├─ ❏ Uma nova partida só poderá
-  │     ser iniciada após um intervalo
-  │     de 4 minutos apartir do início
-  │     da partida anterior
-  │
-  └─ ❏ A partida terminará 
-           automaticamente após 4 minutos
+    ◪ TEMPORIZADOR
+      │
+      ├─ ❏ Un juego nuevo solo puede
+      │ comenzar después de un intervalo
+      │ 4 minutos desde el principio
+      │ del juego anterior
+      │
+      └─ ❏ El partido terminará
+               automáticamente después de 4 minutos
 
-◪ COMANDOS
-  │
-  ├─ ❏ Para marcar digite:
-  │     └「 ${prefix}jogar [ COORDENADA ] 」
-  │
-  └─ ❏ Exemplo:
-	        └「   ${prefix}jogar a1 
-	               ----------------------
-	               🌀1️⃣2️⃣3️⃣
-	               🅰️❌🔲🔲
-	               🅱️🔲🔲🔲
-	               ©️🔲🔲🔲  」
+    ◪ COMANDOS
+      │
+      ├─ ❏ Para marcar escriba:
+      │ └「 ${prefix}reproducir [ COORDENADAS ] 」
+      │
+      └─ ❏ Ejemplo:
+    └「 ${prefix}jugar a1
+    ----------------------
+    🌀1️⃣2️⃣3️⃣
+    🅰️❌🔲🔲
+    🅱️🔲🔲🔲
+    ©️🔲🔲🔲」
 
-◪ SEU STATUS
-  │
-  └─ ❏ Para ver seu status digite:
-          └「 ${prefix}tttme 」
+    ◪ SU ESTADO
+      │
+      └─ ❏ Para ver tu estado escribe:
+              └「${prefix}tttme」
 
-◪ RECOMPENSAS
-  │
-  ├─ ❏ EASY
-  │     ├ Vitória : +「 25 / 50 」
-  │     └ Derrota : -「 200 / 200 」
-  │
-  ├─ ❏ NORMAL
-  │     ├ Vitória : +「 75 / 150 」
-  │     └ Derrota : -「 75 / 150 」
-  │
-  ├─ ❏ HARD
-  │     ├ Vitória : +「 200 / 400 」
-  │     └ Derrota : -「 25 / 50 」
-  │
-  ├─ ❏ IMPOSSIBLE
-  │     ├ Vitória : +「 1000 / 2000 」
-  │     └ Derrota : -「 0 / 0 」
-  │
-  ├─ ❏ EMPATE
-  │     └「 0 / 0 」
-  │ 
-  └─ ❏ PARTIDA NÃO FINALIZADA
-          └ -「 75 / 150 」
+    ◪ RECOMPENSAS
+      │
+      ├─ ❏ FÁCIL
+      │ ├ Victoria: +「25/50」
+      │ └ Derrota: -「200 / 200」
+      │
+      ├─ ❏ NORMALES
+      │├ Victoria: +「75/150」
+      │ └ Derrota: -「75 / 150」
+      │
+      ├─ ❏ DURO
+      │ ├ Victoria: +「200/400」
+      │ └ Derrota: -「 25 / 50 」
+      │
+      ├─ ❏ IMPOSIBLE
+      │ ├ Victoria: +「1000/2000」
+      │ └ Derrota : -「 0 / 0 」
+      │
+      ├─ ❏ SORTEO
+      │ └「0 / 0」
+      │
+      └─ ❏ PARTIDO INACABADO
+              └ -「75 / 150」
 `
 }
 

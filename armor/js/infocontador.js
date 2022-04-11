@@ -1,42 +1,42 @@
 const infocontador = (prefix, pushname) => {
 return`
-Olá ${pushname} - 
+Hola ${pushname} -
 
-Se você está lendo isso é porque está curioso(a) sobre o contador de mensagem de grupos. 
+Si estás leyendo esto, tienes curiosidad sobre el contador de mensajes grupales.
 
-contém alguns comandos
+contiene algunos comandos
 
 -
-(1) ${prefix}rankativos
+(1) ${prefix}clasificaciones
 
-(Descrição: Ele mostra os tops 5 com mais mensagem e comandos executados do bot, no grupo, mas essas mensagem, apenas serão contadas se o bot estiver ativo no termux, ele vai armazenar os dados de cada um que enviar mensagem.) 
- -      -      -       -       -       - 
- 
- 
- 
--               
-(2) ${prefix}atividades
-
-(Descrição:  Este comando, ele mostra as atividades de todos os membros do grupo, mas devo lembrar novamente que só no termux que armazena os dados.)
--    -   -    -    -    -    -   -    -   -
+(Descripción: Muestra el top 5 con más mensajes y comandos ejecutados desde el bot, en el grupo, pero estos mensajes solo se contarán si el bot está activo en termux, almacenará los datos de cada uno que envíe el mensaje. )
+ - - - - - -
 
 
 
 -
-(3) ${prefix}checkativo 
+(2) ${prefix}actividades
 
-(Descrição: Esse comando, você deve marcar a pessoa, Exemplo: ${prefix}checkativo @marca-a-pessoa-do-gp, e assim como esse, é semelhante o aos outros 2.)
--   -   -   -   -   -   -   -   -   -   - 
+(Descripción: Este comando, muestra las actividades de todos los miembros del grupo, pero debo recordarte nuevamente que solo en el termux que almacena los datos.)
+- - - - - - - - - -
+
+
+
+-
+(3) ${prefix}checkactive
+
+(Descripción: Este comando, debes etiquetar a la persona, Ejemplo: ${prefix}checkactive @tag-the-person-of-gp, y así, es similar a los otros 2.)
+- - - - - - - - - - -
 
 
 
 (4) ${prefix}banghost
 
-(Descrição: Preste muita atenção, este comando, você deve digitar ele, mais a quantidade de mensagem que é pra banir as pessoas que tiver abaixo daquela quantidade.
+(Descripción: Preste mucha atención, este comando, debe escribirlo, más la cantidad de mensaje que es para banear a las personas que tienen menos de esa cantidad.
 
-Exemplo: ${prefix}banghost 0 
+Ejemplo: ${prefix}banghost 0
 
-ele vai banir todos aqueles que tiver com 0 mensagem, mas não digite este comando fora do termux (EXEMPLO: HOSPEDADO EM SITES, NÃO NO TERMUX, COMO FOSSE COMANDO, O COMANDO É PRA SER EXECUTADO NO WHATSAPP) , pois ele vai remover todos sem parar, que tiver 0 mensagem, já no termux, ele bane uma pessoa por comando, leia com atenção isso, pois não irei ser responsável por remover todos do seu grupo, por seus erros, recomendo deixar o bot on por 1 semana no grupo, pra usar esse comando, e banir aqueles que nunca enviou mensagem no grupo.)
+desterrará a todos aquellos con 0 mensajes, pero no escriba este comando fuera de termux (EJEMPLO: ALOJADO EN SITIOS, NO EN TERMUX, COMO ERA UN COMANDO, EL COMANDO SE DEBE EJECUTAR EN WHATSAPP), ya que eliminará todos sin parar, que tiene 0 mensaje, ya en termux, banea a una persona por comando, lee esto atentamente, porque no me haré responsable de eliminar a todos de tu grupo, por tus errores, recomiendo dejar el bot encendido por 1 semana en el grupo, para usar este comando, y desterrar a aquellos que nunca enviaron mensajes al grupo.)
  `
 }
 

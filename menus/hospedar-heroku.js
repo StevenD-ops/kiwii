@@ -1,100 +1,100 @@
 const hospedar = (prefix) => {
 return `
 
-COMO HOSPEDAR NO HEROKU...
+CÓMO SER ANFITRIÓN EN HEROKU...
 
-SAIBA QUE DEVES DÁ OS COMANDOS BÁSICOS DO TERMUX, SENÃO NEM VENHA DÁ OS COMANDOS PRA LANÇAR PRO HEROKU :
+SABES QUE DEBES DAR LOS COMANDOS BÁSICOS DE TERMUX, DE LO CONTRARIO NO VENGAS NI A DAR LOS COMANDOS PARA LANZAR A HEROKU:
 
-E LEMBRANDO A TODOS :> O HEROKU NÃO ARMAZENA DADOS, ENTÃO DEVES DÁ TODOS OS COMANDOS DO BOT PRA ATIVAR FUNÇÕES, NO TERMUX, QUALQUER COISA NO HEROKU QUE ATIVAR, E ELE REINICIAR, TODAS AS COISAS QUE FOI ATIVADA VOLTARÁ PARA O PADRÃO, DE COMO FOI ENVIADO.
+Y RECORDANDO A TODOS:> HEROKU NO ALMACENA DATOS, POR LO QUE DEBE DAR TODOS LOS COMANDOS DEL BOT PARA HABILITAR FUNCIONES, EN TERMUX, TODO EN HEROKU QUE SE ACTIVA, Y SE RESTABLECE, TODO LO QUE ESTUVO ACTIVADO VOLVERÁ AL PREDETERMINADO, COMO ERA ENVIADO.
 
-VIDEO DOS COMANDOS BÁSICOS :
+VIDEO DE COMANDOS BÁSICOS:
 
 [ https://youtu.be/OiWcm9INzXE ]
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-PRIMEIRO, VOCÊ DEVE SE CADASTRAR NO HEROKU, APÓS AS AÇÕES ANTERIORES.
+PRIMERO, DEBE REGISTRARSE EN HEROKU, DESPUÉS DE LAS ACCIONES ANTERIORES.
 
-SITE : heroku.com
+SITIO WEB: heroku.com
 
-É CADASTRO BÁSICO, IGUAL QUALQUER SITE, SE NAO SABER FAZER ISSO, VAI SER DIFÍCIL SEGUIR EM DIANTE KKKKKK
+ES REGISTRO BASICO, COMO CUALQUIER SITIO, SI NO SABES COMO HACERLO SERÁ DIFÍCIL SEGUIR ADELANTE KKKKKK
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-APÓS SE CADASTRAR NO HEROKU, VÁ ATÉ O TERMUX E DE OS SEGUINTES COMANDOS :
+DESPUÉS DE REGISTRARSE EN HEROKU, IR A TERMUX Y COMANDAR LO SIGUIENTE:
 
-IREI PASSAR OS COMANDOS, PASSO A PASSO EM SEGUIDA..
-
-
-heroku login -i
+PASO LOS COMANDOS, PASO A PASO SIGUIENTE..
 
 
-ESSE COMANDO ^ É PARA CONECTAR NA CONTA DO HEROKU, VOCÊ VAI INSERIR PRIMEIRO O EMAIL DA CONTA DO HEROKU, E DÁ ENTER, DEPOIS A SENHA, E CONFIRMAR COM ENTER...
+inicio de sesión de heroku -i
 
-ELE VAI CONECTAR.
 
-Próximos comando :
- 
-1_ COMANDO :
+ESTE COMANDO ^ ES PARA CONECTARSE A LA CUENTA HEROKU, PRIMERO INGRESARÁ EL CORREO ELECTRÓNICO DE LA CUENTA HEROKU, Y LUEGO INGRESARÁ LA CONTRASEÑA, Y CONFIRMAR CON ENTER...
 
-cd /sdcard/aleatory-md 
+SE CONECTARÁ.
 
-1.2_ COMANDO :
+Siguiente comando:
 
-node index
+1_ MANDO:
 
-ESCANEIA O QRCODE COM O TESTE BETA ATIVADO, SE FOR A VERSÃO MULTI-DEVICE, ALEATORY - MD
+cd /sdcard/random-md
 
-1.3_ PASSO :
+1.2_ MANDO :
 
-DEPOIS PRESSIONA O VOLUME DE DIMINUIR O VOLUME DO CELULAR, E APERTA A LETRA Z, APÓS ESCANEAR O QRCODE, E FAÇA OS PROCEDIMENTOS, ABAIXO, LEMBRE-SE DE CONFIGURAR O BOT ANTES, EXPLIQUEI LÁ ENCIMA O PORQUE.
+índice de nodo
 
-1.4_ COMANDO :
+ESCANEE EL QRCODE CON EL TEST BETA ACTIVADO, SI ES LA VERSIÓN MULTIDISPOSITIVO, ALEATORIO - MD
+
+1.3_ PASO :
+
+LUEGO PRESIONE EL VOLUMEN ABAJO EL VOLUMEN DEL TELÉFONO, Y PRESIONE LA LETRA Z, DESPUÉS DE ESCANEAR EL QRCODE, Y HAGA LOS PROCEDIMIENTOS A CONTINUACIÓN, RECUERDE CONFIGURAR EL BOT ANTES, AQUÍ LE EXPLICARÉ EL POR QUÉ.
+
+1.4_ MANDO :
 
 rm -rf .git
 
-2_ COMANDO :
+2_ MANDO :
 
-git init
+iniciar git
 
-3_ COMANDO :
+3_ MANDO :
 
-heroku apps:create NOMEDOAPP
+aplicaciones heroku: crear APPNAME
 
-^ em NOMEDOAPP, coloque um nome seu, ou nick com numeração, pra ele aceitar, deve ser letra menuscula, lembre do nome.
+^ en APPNAME, pon tu nombre, o nickname con números, para que acepte, debe ser una letra menuscula, recuerda el nombre.
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-PRÓXIMOS COMANDOS :
+PRÓXIMOS COMANDOS:
 
 4_ COMANDO :
 
-heroku buildpacks:add heroku/nodejs
+paquetes de compilación de heroku: agregar heroku/nodejs
 
-5_ COMANDO :
+5_ MANDO :
 
-heroku buildpacks:add https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+paquetes de compilación heroku: agregar https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 
-6_ COMANDO :
+6_ MANDO:
 
-heroku buildpacks:add https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+paquetes de compilación heroku: agregar https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 _7 COMANDO :
 
-heroku git:remote -a NOMEDOAPP
+heroku git:remoto -a NOMBRE DE LA APLICACIÓN
 
-Em NOMEDOAPP você coloca o nome que colocou, que mandei criar, no primeiro que informei. 
+En APPNAME pones el nombre que pusiste, que yo había creado, en el primero que informé.
 
 _8 COMANDO :
 
-git config --global user.email "tantofaz@gmail.com"
-git config --global user.name "TantoFaz"
+git config --usuario global.email "tantofaz@gmail.com"
+git config --usuario global.nombre "Lo que sea"
 
-Cole exatamente dessa fórma, não precisa editar nada... 
+Pegue exactamente de esta manera, no es necesario editar nada...
 
 _9 COMANDO :
 
-git add . 
+agrega git
 
 _10 COMANDO :
 
@@ -102,62 +102,61 @@ git commit -am "blabla"
 
 _11 COMANDO :
 
-git push heroku master
+git empuje maestro heroku
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-PROXIMOS :
+PRÓXIMO:
 
-ENTRE NO SITE : heroku.com
+ENTRAR A LA WEB: heroku.com
 
-ACESSE A SUA CONTA QUE CRIOU, ENTRE NO APP QUE FOI CRIADO, COMO ESSE LINK MOSTRA :
+ACCEDA A SU CUENTA QUE USTED CREÓ, INGRESE A LA APLICACIÓN QUE FUE CREADA, COMO MUESTRA ESTE ENLACE:
 
-[ https://telegra.ph/file/5c2bc8d1290914de5ddc3.jpg ] 
-
--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ 
-
-DEPOIS QUE ENTRAR NO APP
-
-ACESSE ESSA PARTE QUE ESTÁ O LINK ABAIXO MOSTRANDO O PRINT DA FOTO :
-
-[ https://telegra.ph/file/7e3b3f6b8f0a04118c8ac.jpg ] 
+[https://telegra.ph/file/5c2bc8d1290914de5ddc3.jpg]
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-FAÇA IGUAL MOSTRADO NO PRINT, E ESCRITO.
+DESPUÉS DE ENTRAR A LA APLICACIÓN
 
-LINK DO PRINT ATIVANDO O BOTÃO :
+ACCEDE A ESTA PARTE QUE SE ENCUENTRA EN EL ENLACE ABAJO QUE MUESTRA LA IMPRESIÓN DE LA FOTO:
 
-[ https://telegra.ph/file/e7538214885d688e4eb06.jpg ] 
-
--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-FAÇA COMO EXPLIQUEI PASSO A PASSO, SE MUDAR ATÉ UMA VIRGULA, OU UMA PONTUAÇÃO DO QUE ENSINEI, PODE DÁ ERROR, LEMBRANDO TAMBÉM QUE SE JÁ DEU OS COMANDOS BÁSICOS DO TERMUX, NÃO REPITA POIS PODERÁ CAUSAR BUG NO TERMUX, AE TERÁ QUE REFAZER TODOS COMANDOS BÁSICOS DO TERMUX.. 
+[https://telegra.ph/file/7e3b3f6b8f0a04118c8ac.jpg]
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-COMANDO PARA ATUALIZAR, CASO EDITAR ALGUMA INFORMAÇÃO, OU NOME DO BOT :
+HAGA LO MISMO QUE SE MUESTRA EN LA IMPRESIÓN Y ESCRITO.
 
-ACESSE A PASTA DO BOT COM :
+IMPRIMIR ENLACE ACTIVACIÓN DEL BOTÓN:
+
+[https://telegra.ph/file/e7538214885d688e4eb06.jpg]
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+HAZ COMO TE EXPLIQUE PASO A PASO, SI CAMBIAS HASTA UNA COMA O PUNTAJE DE LO QUE ENSEÑÉ, PUEDE DAR UN ERROR, RECORDANDO TAMBIÉN QUE SI YA HAN DADO LOS COMANDOS BÁSICOS DE TERMUX, NO REPITAS PORQUE PUEDE CAUSAR UN ERROR EN TERMUX, Y TENDRÁS QUE REHACER TODOS LOS COMANDOS BÁSICOS DE TERMUX..
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+COMANDO PARA ACTUALIZAR, SI EDITA ALGUNA INFORMACIÓN, O NOMBRE DEL BOT:
+
+ACCEDE A LA CARPETA BOT CON:
 
 _1 COMANDO :
 
-cd /sdcard/aleatory-md 
+cd /sdcard/random-md
 
 _2 COMANDO :
 
-git add .
+agrega git
 
-3_ COMANDO :
+3_ MANDO :
 
 git commit -am "blabla"
 
 4_ COMANDO :
 
-git push heroku master
+git empuje maestro heroku
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
 `
 }
 

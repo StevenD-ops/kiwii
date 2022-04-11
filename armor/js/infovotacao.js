@@ -1,27 +1,27 @@
 const infovotacao = (prefix, pushname) => {
 return`
 
-Olá ${pushname}
+Hola ${pushname}
 
-Comando: ${prefix}votação
-
-
-Deseja saber sobre como funciona os comandos de votação?, é simples, você deve marcar uma pessoa junto a uma / e digitar uma frase como pergunta, e depois / e os minutos, 
-
-Exemplo: ${prefix}votação @marca-pessoa/Vamos lanchar bolo hoje??/1  
-
-para votar ou negar, tem que digitar sem prefixo:
-
-voto ou devoto
+Comando: ${prefix}voto
 
 
-1 que coloquei é 1 Minuto de votação, então faça exatamente, dessa fórma aí.
+¿Quieres saber cómo funcionan los comandos de votación?, es simple, tienes que etiquetar a una persona al lado de un / y escribir una oración como pregunta, y luego / y los minutos,
 
-e também contêm o comando:
+Ejemplo: ${prefix}vote @marca-pessoa/Vamos a comer un pastel hoy??/1
 
-${prefix}delvote
+para votar o negar, hay que teclear sin prefix:
 
-ele anula sua votação.
+voto o devoto
+
+
+1 puse es 1 minuto de votación, así que hazlo exactamente así.
+
+y también contienen el comando:
+
+${prefix}delvoto
+
+anula su voto.
 
 `
 }

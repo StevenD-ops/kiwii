@@ -1,41 +1,41 @@
 const infolistanegra = (prefix, pushname) => {
 return `
-Olá ${pushname} deseja saber como funciona o comando listanegra?, vamos lá. 
+Hola ${pushname} ¿quieres saber cómo funciona el comando blacklister?, vamos.
 
-existe esses 3 comandos 
+hay estos 3 comandos
 
-${prefix}autoban 
+${prefix}autoban
 
-${prefix}listanegra
+${prefix}lista negra
 
-${prefix}tirardalista
+${prefix}tirador
 
-
---------------------------------
-
-Como isso funciona? 
-
-esse comando, por exemplo, se alguém envia algo no seu grupo, vamos supor, um link, e sai rápido, você vai digitar o seguinte 
-
-${prefix}listanegra numero-junto-da-pessoa
-
-vai colocar o número junto da pessoa que saiu, sem o + lembrando, e sem o -. 
-
-pra remover ele da lista é simples:
-
-${prefix}tirardalista numero-junto-da-pessoa
-
-mesmos detalhes de add.. 
 
 --------------------------------
 
-Depois de ter adicionado, você tem que ativar a função por grupo, que é o seguinte. 
+¿Cómo funciona eso?
 
-${prefix}autoban 1  
+este comando, por ejemplo, si alguien envía algo en tu grupo, digamos, un enlace, y sale rápido, escribirás lo siguiente
 
-e pra desligar a ação de banir quem está na listanegra é só por 0 de vez ser 1..
+${prefix}número-de-lista-negra-a-persona
 
-é isso aí, boa sorte amigo..
+pondrá el número al lado de la persona que se fue, sin el + recordando, y sin el -.
+
+Eliminarlo de la lista es simple:
+
+${prefix}fragmento de número a persona
+
+mismos detalles que agregar..
+
+--------------------------------
+
+Una vez que lo hayas añadido, tienes que activar la función por grupo, que es la siguiente.
+
+${prefix}autoban 1
+
+y para desactivar la acción de baneo de aquellos en la lista negra, simplemente ponga 0 en lugar de 1..
+
+Eso es todo, buena suerte amigo.
 `
 }
 

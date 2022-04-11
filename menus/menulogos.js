@@ -1,11 +1,11 @@
 const menulogos = (prefix) => {
-  
-// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.  
-  
+
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.
+
   return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 ╭───────────────
 ╎
-╎⎙  Plaquinhas 
+╎⎙  placas 
 ╎
 ╰───────────────
 ╎
@@ -23,7 +23,7 @@ const menulogos = (prefix) => {
 ╎
 ╰───────────────
 ╎
-╎⩺ ${prefix}Comporn (txt/txt) 
+╎⩺ ${prefix}Comporn (txt/txt)
 ╎⩺ ${prefix}Glitch (txt/txt)
 ╎⩺ ${prefix}Glitch3 (txt/txt)
 ╎⩺ ${prefix}Grafity (txt-txt)
@@ -32,8 +32,8 @@ const menulogos = (prefix) => {
 ╎⩺ ${prefix}GamePlay (txt/txt)
 ╎⩺ ${prefix}Stone (txt/txt)
 ╎⩺ ${prefix}Steel (txt/txt)
-╎⩺ ${prefix}Ffbanner (txt/txt) 
-╎⩺ ${prefix}Mascoteavatar (txt/txt) 
+╎⩺ ${prefix}Ffbanner (txt/txt)
+╎⩺ ${prefix}Mascoteavatar (txt/txt)
 ╎
 ╰───────────────
 
@@ -43,20 +43,20 @@ const menulogos = (prefix) => {
 ╎
 ╰───────────────
 ╎
-╎⩺ ${prefix}Txtquadrinhos (txt) 
-╎⩺ ${prefix}HackNeon (txt) 
-╎⩺ ${prefix}EquipeMascote (txt) 
-╎⩺ ${prefix}FFavatar (txt) 
-╎⩺ ${prefix}Gizquadro (txt) 
-╎⩺ ${prefix}Angelglx (txt) 
-╎⩺ ${prefix}WingEffect (txt) 
-╎⩺ ${prefix}Angelwing (txt) 
-╎⩺ ${prefix}Blackpink (txt) 
-╎⩺ ${prefix}Girlmascote (txt) 
-╎⩺ ${prefix}Mascotegame (txt) 
-╎⩺ ${prefix}Fpsmascote (txt) 
-╎⩺ ${prefix}Logogame (txt) 
-╎⩺ ${prefix}Glitch2 (txt) 
+╎⩺ ${prefix}Txtquadrinhos (txt)
+╎⩺ ${prefix}HackNeon (txt)
+╎⩺ ${prefix}EquipeMascote (txt)
+╎⩺ ${prefix}FFavatar (txt)
+╎⩺ ${prefix}Gizquadro (txt)
+╎⩺ ${prefix}Angelglx (txt)
+╎⩺ ${prefix}WingEffect (txt)
+╎⩺ ${prefix}Angelwing (txt)
+╎⩺ ${prefix}Blackpink (txt)
+╎⩺ ${prefix}Girlmascote (txt)
+╎⩺ ${prefix}Mascotegame (txt)
+╎⩺ ${prefix}Fpsmascote (txt)
+╎⩺ ${prefix}Logogame (txt)
+╎⩺ ${prefix}Glitch2 (txt)
 ╎⩺ ${prefix}3DGold (txt)
 ╎⩺ ${prefix}Placaloli (txt)
 ╎⩺ ${prefix}Phadow (txt)
@@ -84,10 +84,10 @@ const menulogos = (prefix) => {
 ╎⩺ ${prefix}Transformer (txt)
 ╎⩺ ${prefix}America (txt)
 ╎⩺ ${prefix}Demongreen (txt)
-╎⩺ ${prefix}Wetglass (txt)    
-╎⩺ ${prefix}Toxic (txt)     
-╎⩺ ${prefix}Neon3 (txt)   
-╎⩺ ${prefix}Neondevil (txt) 
+╎⩺ ${prefix}Wetglass (txt)
+╎⩺ ${prefix}Toxic (txt)
+╎⩺ ${prefix}Neon3 (txt)
+╎⩺ ${prefix}Neondevil (txt)
 ╎⩺ ${prefix}Neongreen (txt)
 ╎⩺ ${prefix}Lava (txt)
 ╎⩺ ${prefix}Halloween (txt)
@@ -136,4 +136,4 @@ const menulogos = (prefix) => {
 
 exports.menulogos = menulogos
 
-// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa. 
+// NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.

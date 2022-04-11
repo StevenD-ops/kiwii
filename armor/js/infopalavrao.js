@@ -1,38 +1,38 @@
 const infopalavrao = (prefix, pushname) => {
 return `
-Olá ${pushname}
+Hola ${pushname}
 
-Irei informar como funciona antipalavrão.. 
+Te dejaré saber cómo funciona el anti-improperio..
 
-o antipalavrão é criado por você mesmo(a), "Como assim?", existe os seguintes comandos:
+el anti-improperio lo crea usted mismo, "¿Cómo es eso?", Existen los siguientes comandos:
 
-${prefix}addpalavra
+${prefix}añadir palabra
 
 ${prefix}delpalavra
 
-${prefix}antipalavrão
+${prefix}anti-improperio
 
 -------------------------------
 
-primeiro, irei dá um exemplo: 
+Primero, daré un ejemplo:
 
-${prefix}addpalavra lixo
+${prefix}añadirpalabra basura
 
-isso será incluído como um palavrão, "mas como faço isso funcionar agora?" 
+esto se incluirá como una palabrota, "pero, ¿cómo hago para que esto funcione ahora?"
 
-você deve ativar a função por grupo, exemplo:
+debes activar la función por grupo, ejemplo:
 
-${prefix}antipalavrão 1  
+${prefix}anti-improperio 1
 
-1 é pra ativar, 0 pra desativar. 
+1 es para habilitar, 0 es para deshabilitar.
 
-e se você quer tirar a palavra de inclusão dos palavrões, é só digitar :
+y si desea eliminar la palabra de inclusión de las malas palabras, simplemente escriba:
 
-${prefix}delpalavra lixo
+${prefix}delgarbageword
 
-"lixo" é apenas a palavra que utilize como exemplo, mas você que tem que criar, e escolher quais frases não deseja que seja falada no seu grupo.
+"basura" es solo la palabra que usas como ejemplo, pero tienes que crear y elegir qué frases no quieres que se hablen en tu grupo.
 
-é isso aí, boa sorte..
+eso es todo suerte..
 `
 }
 

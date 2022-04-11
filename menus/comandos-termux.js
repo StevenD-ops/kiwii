@@ -1,41 +1,41 @@
 const cmd_termux = (prefix) => {
 return `
-SÓ DEVO LEMBRAR QUE O TERMUX DA PLAY STORE NÃO PRESTA, ENTÃO INSTALE O 118 POR LÁ 
+SOLO RECUERDA QUE EL TERMUX DE PLAY STORE NO FUNCIONA, ASI QUE INSTALE EL 118 AHI
 
-> aleatoryapi.herokuapp.com 
+> aleatoryapi.herokuapp.com
 
 
-Comandos Básicos do termux, nescessario para inicialização do bot:
+Comandos básicos de termux, necesarios para el arranque del bot:
 
 
 - _1 COMANDO :
 
 
-termux-change-repo
+termux-cambiar-repo
 
-APERTA OK
+PRESIONA OK
 
-_-_-_       _-_-_.        _-_-_
+_-_-_ _-_-_. __-_-_
 
-MARCA A TERCEIRA CAIXINHA E APERTA OK.
+MARQUE LA TERCERA CASILLA Y PRESIONE OK.
 
-_-_-_      _-_-_-        _-_-_-
+_-_-_ _-_-_- _-_-_-
 
 
 _2 COMANDO
 
 
-pkg upgrade -y 
+actualización del paquete -y
 
 
-ASSISTA O VIDEO, ALGUMAS VEZES QUANDO PAUSAR É NESCESSARIO DA ENTER, VAI PAUSAR A AÇÃO E VAI APARECER [default=N] ?
+VER EL VIDEO, A VECES CUANDO ES NECESARIO PAUSAR PARA ENTRAR, PAUSARÁ LA ACCIÓN Y APARECERÁ [predeterminado=N] ?
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
-_3 COMANDO 
+_3 COMANDO
 
 
-pkg update -y
+actualización del paquete -y
 
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
@@ -43,41 +43,41 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 _4 COMANDO
 
 
-termux-setup-storage
+Termux-configuración-almacenamiento
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
-_5 COMANDO 
+_5 COMANDO
 
 
-pkg install nodejs -y
+pkg instalar nodejs -y
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
-_6 COMANDO 
+_6 COMANDO
 
 
 pkg install nodejs-lts -y
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
-_7 COMANDO 
+_7 COMANDO
 
 
-pkg install git -y
-
-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
-
-
-_8 COMANDO 
-
-
-pkg install ffmpeg -y
+pkg instalar git -y
 
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 
-_9 COMANDO NESCESSARIO PRA O HEROKU
+_8 COMANDO
+
+
+pkg instalar ffmpeg -y
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+
+_9 COMANDO REQUERIDO PARA HEROKU
 
 
 npm i -g npm@6 && npm i heroku -g
@@ -86,8 +86,7 @@ npm i -g npm@6 && npm i heroku -g
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 
-PRONTO, BOA SORTE... 
-
+OK BUENA SUERTE...
 
 `
 }

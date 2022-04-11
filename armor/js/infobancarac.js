@@ -1,20 +1,23 @@
 const infobancarac = (prefix, pushname) => {
 return `
-Olá ${pushname}
+Es muy fácil caer en el error de pensar que todo depende de ti. Pero si amas a Dios, tu vida está en Sus manos. Deja que Dios guíe tu vida y él te ayudará.",
+"Cuidado con los sentimientos de superioridad. La historia confirma lo que dice la Biblia: cuando una persona se vuelve arrogante, siempre termina cayendo en la ruina. La arrogancia nos vuelve estúpidos".
+"¿Cuál es la mejor inversión a largo plazo para asegurar su futuro? Generosidad. La generosidad engendra más generosidad".
+Hola ${pushname}
 
-Um comando que criei, é exatamente assim:
+Un comando que creé, se ve exactamente así:
 
-com o comando 
+con el comando
 
-${prefix}limitec você coloca o limite de caracteres que uma pessoa pode enviar no grupo, por exemplo um texto, se passar da quantidade que colocou, por exemplo, 3000, o bot vai remover, mas pra isso, depois de distinguir o limite, tem que ativar o comando por grupo que é :
+${prefix}limitec pones el límite de caracteres que una persona puede enviar en el grupo, por ejemplo un texto, si supera la cantidad que pones, por ejemplo, 3000, el bot lo eliminará, pero para eso, después distinguiendo el límite, hay que activar el comando por grupo que es:
 
-${prefix}limitecaracteres 1 
+${prefix}límite de caracteres 1
 
-1 é pra ativar, 0 pra desativar, ok? 
+1 es para activar, 0 para desactivar, ¿vale?
 
-esse comando evitará que enviem trava de texto no seu grupo, pra o bot remover automaticamente, é isso aí.. 
+este comando evitará que envíen bloqueos de texto en tu grupo, para que el bot los elimine automáticamente, eso es todo..
 
-Boa sorte.. 
+Buena suerte..
 
 `
 }

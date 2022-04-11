@@ -1,105 +1,104 @@
 const infobemvindo = (prefix) => {
 return `
 
-Olá, este comando é para informar, como você deve ativar o bem vindo, e lembrando, esse bemvindo, contém uma legenda diferente, a cada grupo que for colocado, o bemvindo2 tem essa função também. 
+Hola, este comando es para informarte, como debes activar la bienvenida, y recordando, esta bienvenida, contiene un título diferente, para cada grupo que se coloca, bemvindo2 también tiene esta función.
 
 
-(ATENÇÃO - BEMVINDO2 NÃO TEM FOTO, SÓ LEGENDA. 
-E É IGUAL O PROCEDIMENTO, SÓ MUDAR DE ${prefix}bemvindo pra ${prefix}bemvindo2 e os outros a mesma coisa, legendabv2 legendasaiu2, é isso... )
+(ATENCIÓN - WELCOME2 NO TIENE FOTO, SOLO LEYENDA.
+Y EL PROCEDIMIENTO ES EL MISMO, SOLO CAMBIO DE ${prefix}welcome a ${prefix}welcome2 y los demás igual, legendabv2 legendasaiu2, eso es todo... )
 
-Pará ativar o comando, é nescessario ativar, com:
+Para activar el comando, es necesario activar, con:
 
-${prefix}bemvindo 1 
+${prefix}bienvenido 1
 
-Pará Desativar :
+Para deshabilitar:
 
-${prefix}bemvindo 0
-
-
-Pronto. 
-
-Pará criar a legenda você deve digitar este comando :
-
-${prefix}legendabv e colocar a legenda que você quer que o bot envie, após alguém entrar no grupo, e tem essas coisas. 
-
-#nomedogp#
-
-#numerobot#
-
-#numerodele#
-
-#prefixo#
-
-#descrição#
+${prefix}bienvenido 0
 
 
+Listo.
 
+Para crear el pie de foto debes teclear este comando:
 
-Se eu fazer uma legenda assim, por exemplo: 
+${prefix}legendabv y coloque el título que desea que envíe el bot, después de que alguien se una al grupo, y ahí están estas cosas.
 
-${prefix}legendabv Olá seja bem vindo(a) ao grupo : #numerodele# 
+#nombredeperro#
 
-Grupo: #nomedogp#
+#númerobot#
 
-Prefixo do bot : #prefixo#
+#eliminarnúmero#
 
-Leia as regras : 
+#prefix#
 
-#descrição#
-
-
-E também tem esse:
-
-${prefix}legendasaiu e digita oq quer, por exemplo, Adeus.
-
-mas não recomendo colocar legenda, é bom que só vem o bemvindo kkkk, vai aparecer que a legenda N foi definida kkkk
-
-
-Pronto, se eu envio assim, no grupo que estou, toda vez que alguém entrar, sera enviado isso, o que você definiu ali 
-
-#numerodele# = vai aparecer o numero dele, com essa definição. 
-
-#nomedogp# = vai aparecer o nome do grupo com essa definição. 
-
-#prefixo# = vai aparecer qual o símbolo que você está utilizando no bot, pra fazer ele funcionar.
-
-#descrição# = vai aparecer a descrição do grupo todo. 
-
-
-
-Pra trocar o fundo da imagem do bemvindo, é só mandar uma foto no WhatsApp, retangular e marcar ela com o comando :
-
-${prefix}fundobemvindo 
-
-Ou se quer trocar a do saiu 
-
-${prefix}fundosaiu 
-
-Só marcar uma foto e pronto, com o comando. 
-
-Vale pra a foto do menu também. 
-
-${prefix}fotomenu só marcar uma foto, que já é trocado.
+#descripción#
 
 
 
 
-É isso galera, buenas suerte ae.
+Si hago un título como este, por ejemplo:
+
+${prefix}legendabv Hola y bienvenido al grupo: #delenumber#
+
+Grupo: #nombredeperro#
+
+prefix de bot: #prefix#
+
+Lee las reglas :
+
+#descripción#
+
+
+Y también está este:
+
+${prefix}subtitles sale y escribe lo que quieras, por ejemplo Adiós.
+
+pero no recomiendo poner subtítulos, que bueno que solo llega la bienvenida jajaja, parecerá que se definió el subtítulo N jajaja
+
+
+Ok, si lo envío así, en el grupo en el que estoy, cada vez que alguien se una, se enviará esto, lo que definiste allí
+
+#numerodele# = aparecerá su número, con esta definición.
+
+#dogname# = aparecerá el nombre del grupo con esta definición.
+
+#prefix# = aparecerá el símbolo que estás usando en el bot para que funcione.
+
+#description# = aparecerá la descripción de todo el grupo.
+
+
+
+Para cambiar el fondo de la imagen de bienvenida, simplemente envíe una foto rectangular en WhatsApp y etiquétela con el comando:
+
+${prefix}fondobienvenido
+
+O si quieres cambiar el de la izquierda
+
+${prefix}fundosaiu
+
+Solo etiqueta una foto y listo, con el comando.
+
+Va para la foto del menú también.
+
+${prefix}fotomenu solo etiqueta una foto, que ya está modificada.
+
+
+
+
+Eso es todo chicos, buena suerte ae.
 
 
 
 
 
 ----------------------------
-CRÉDITOS DO BEM VINDO : 
+CRÉDITOS DE BIENVENIDA:
 
 Brizas-Bot = Ian.
 
 
-Assinado: Aleatory Bot. 
+Firmado: Robot aleatorio.
 
------------------------------
-`
+--------------------------------------------`
 }
 
 exports.infobemvindo = infobemvindo
